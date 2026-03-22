@@ -2760,10 +2760,10 @@
                 submittedAt: new Date().toISOString()
             };
 
-            // Replace this URL with your N8N webhook URL
-            const N8N_WEBHOOK_URL = 'https://n8n.srv1174637.hstgr.cloud/webhook/6255d9f6-15b7-4b39-8689-1e2082a49767';
+            // Go High Level webhook
+            const GHL_WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/qtcvNs6QN0q32OFSrjek/webhook-trigger/OSaD8A3dNzOzv2Bkyxlt';
 
-            fetch(N8N_WEBHOOK_URL, {
+            fetch(GHL_WEBHOOK_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData)
